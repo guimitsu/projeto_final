@@ -3,7 +3,8 @@
 
 
 Este projeto tem o objetivo de facilitar o controle de estoque e o gerenciamento financeiro para lojas de roupas de pequeno porte.
-Tendo este cenário em vista a aplicação será desenvolvida em Flutter permitindo assim o uso em multi-plataformas.
+A aplicação será desenvolvida em Flutter para permitir o uso multi-plataformas.
+
 
 ============================================================================================
 
