@@ -1,3 +1,4 @@
-class Categoria {
 
+class Categoria {
+  List<String> tipo = [];
 }
