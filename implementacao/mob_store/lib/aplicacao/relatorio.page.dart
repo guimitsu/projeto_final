@@ -63,6 +63,12 @@ class RelatorioPage extends StatelessWidget {
                         );
                       },
                     );
+                    if (dataFinal != null) {
+                      final finalData =
+                          DateFormat(DateFormat.YEAR_MONTH_DAY, 'en_US')
+                              .format(dataFinal);
+                      return finalData;
+                    }
                   },
                 )
               ],
