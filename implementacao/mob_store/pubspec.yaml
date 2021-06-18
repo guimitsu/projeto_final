@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.16.1
+    intl: ^0.16.1
   flutter_mobx: ^1.1.0+2
   fluttericon: 1.0.7
   get_it: 5.0.6

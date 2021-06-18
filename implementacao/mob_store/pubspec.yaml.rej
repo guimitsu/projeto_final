@@ -1,0 +1,9 @@
+diff a/implementacao/mob_store/pubspec.yaml b/implementacao/mob_store/pubspec.yaml	(rejected hunks)
+@@ -23,6 +23,7 @@
+ dependencies:
+   flutter:
+     sdk: flutter
++  intl: ^0.16.1
+   flutter_mobx: ^1.1.0+2
+   fluttericon: 1.0.7
+   get_it: 5.0.6
