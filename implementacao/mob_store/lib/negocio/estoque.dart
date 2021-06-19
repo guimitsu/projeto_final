@@ -11,12 +11,12 @@ class Estoque {
     produtos.remove(produto);
   }
 
-  void alteraProduto(Produto produto){
-
+  void alteraProduto(int cdProd, Produto produto){
+    produtos[produtos.indexWhere((element) => element.cdProd == cdProd)] = produto;
   }
 
   Produto visualizaProduto(int cdProd){
-    Produto produto;
+    Produto produto = produtos[produtos.indexWhere((element) => element.cdProd == cdProd)];
     return produto;
   }
 }
